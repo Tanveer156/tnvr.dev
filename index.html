@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of [Your Name] - Front-End Developer specializing in modern web development">
+    <title>Your Name | Front-End Developer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!-- Custom CSS - Same folder -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <span class="gradient-text">tnvr.dev</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-right" data-aos-duration="1000">
+                    <p class="hero-tag">Hi, I'm</p>
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Tanveer Shawan</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        <span class="typewriter"></span>
+                    </h2>
+                    <p class="hero-description">
+                        I craft modern, responsive web experiences with clean code and creative design. 
+                        Passionate about turning ideas into interactive digital solutions.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">
+                            View Projects
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                    <div class="hero-social">
+    <a href="https://github.com/Tanveer156" target="_blank" class="social-icon" aria-label="GitHub">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+    </a>
+    <a href="https://linkedin.com/in/md-tanveer-hossain-shawan-5bb9612b9" target="_blank" class="social-icon" aria-label="LinkedIn">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+    </a>
+    <a href="https://reddit.com/user/DullDifficulty8879" target="_blank" class="social-icon" aria-label="Reddit">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
+    </a>
+</div>
+
+                </div>
+                
+               <div class="hero-image" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+    <div class="image-container">
+        <div class="image-glow"></div>
+        <img src="profile.png" alt="Your Name - Front-End Developer">
+    </div>
+</div>
+
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="1500">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                About <span class="gradient-text">Me</span>
+            </h2>
+            <div class="about-grid">
+                <div class="about-text" data-aos="fade-right" data-aos-delay="100">
+                    <p>
+                        I'm a passionate front-end developer based in Bangladesh with a strong focus on creating 
+                        intuitive and engaging user experiences. With expertise in modern web technologies, 
+                        I transform complex problems into simple, beautiful, and intuitive designs.
+                    </p>
+                    <p>
+                        Currently pursuing Computer Science while building real-world projects that combine 
+                        technical excellence with creative vision. I believe in writing clean, maintainable 
+                        code and staying up-to-date with the latest industry trends.
+                    </p>
+                    <p>
+                        When I'm not coding, you'll find me exploring new technologies, contributing to 
+                        open-source projects, or watching movies and analyzing their cinematography.
+                    </p>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-card card-glass" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="stat-icon">📦</div>
+                        <h3 class="stat-number" data-target="05">0</h3>
+                        <p class="stat-label">Projects Completed</p>
+                    </div>
+                    <div class="stat-card card-glass" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="stat-icon">⚡</div>
+                        <h3 class="stat-number" data-target="2">0</h3>
+                        <p class="stat-label">Years Experience</p>
+                    </div>
+                    <div class="stat-card card-glass" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="stat-icon">🎯</div>
+                        <h3 class="stat-number" data-target="100">0</h3>
+                        <p class="stat-label">Client Satisfaction</p>
+                    </div>
+                    <div class="stat-card card-glass" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="stat-icon">☕</div>
+                        <h3 class="stat-number" data-target="999">0</h3>
+                        <p class="stat-label">Cups of Coffee</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                Skills & <span class="gradient-text">Technologies</span>
+            </h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                Technologies I work with to bring ideas to life
+            </p>
+            
+            <div class="skills-grid">
+                <div class="skill-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="skill-icon">🎨</div>
+                    <h3 class="skill-name">HTML5</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="--skill-width: 95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="skill-icon">💅</div>
+                    <h3 class="skill-name">CSS3</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="--skill-width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="skill-icon">⚡</div>
+                    <h3 class="skill-name">JavaScript</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="--skill-width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-aos="flip-left" data-aos-delay="400">
+                    <div class="skill-icon">⚛️</div>
+                    <h3 class="skill-name">React</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="--skill-width: 80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-aos="flip-left" data-aos-delay="500">
+                    <div class="skill-icon">🎯</div>
+                    <h3 class="skill-name">Bootstrap</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="--skill-width: 88%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-aos="flip-left" data-aos-delay="600">
+                    <div class="skill-icon">🔧</div>
+                    <h3 class="skill-name">Git</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="--skill-width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-aos="flip-left" data-aos-delay="700">
+                    <div class="skill-icon">🐙</div>
+                    <h3 class="skill-name">GitHub</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="--skill-width: 82%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-aos="flip-left" data-aos-delay="800">
+                    <div class="skill-icon">📱</div>
+                    <h3 class="skill-name">Responsive Design</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="--skill-width: 92%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                Featured <span class="gradient-text">Projects</span>
+            </h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                Check out some of my recent work
+            </p>
+            
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <article class="project-card" data-aos="zoom-in-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-placeholder">🎬</div>
+                        <div class="project-overlay">
+                            <a href="https://tanveer156.github.io/oldscreen/" class="btn-icon" target="_blank" aria-label="View Live">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                            </a>
+                            <a href="https://github.com/tanveer156/oldscreen" class="btn-icon" target="_blank" aria-label="View GitHub">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">OldScreen Movie Review</h3>
+                        <p class="project-description">
+                            A vintage-style movie review platform with a nostalgic aesthetic. 
+                            Features user reviews, ratings, and a curated collection of classic films.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project Card 2 -->
+                <article class="project-card" data-aos="zoom-in-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-placeholder">🎮</div>
+                        <div class="project-overlay">
+                            <a href="https://tanveer156.github.io/Space-Shooter-Web-game" class="btn-icon" target="_blank">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                            </a>
+                            <a href="https://github.com/tanveer156/Space-Shooter-Web-game" class="btn-icon" target="_blank">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Interactive Web Game</h3>
+                        <p class="project-description">
+                            A browser-based game with smooth animations and responsive controls. 
+                            Built with pure JavaScript for engaging gameplay experience.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="cta-center" data-aos="fade-up" data-aos-delay="500">
+                <a href=https://github.com/Tanveer156?tab=repositories class="btn btn-primary" target="_blank">
+                    View All Projects on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">
+            Get In <span class="gradient-text">Touch</span>
+        </h2>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+            Have a project in mind? Let's work together!
+        </p>
+        
+        <!-- Formspree Form -->
+        <form action=https://formspree.io/f/mnnevozq method="POST" class="contact-form" data-aos="fade-up" data-aos-delay="200" id="contact-form">
+            
+            <!-- Name -->
+            <div class="form-group">
+                <label for="name">Your Name *</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="John Doe" required>
+            </div>
+            
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email">Your Email *</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="john@example.com" required>
+            </div>
+            
+            <!-- Subject -->
+            <div class="form-group">
+                <label for="subject">Subject *</label>
+                <input type="text" id="subject" name="subject" class="form-input" placeholder="Project Inquiry" required>
+            </div>
+            
+            <!-- Message -->
+            <div class="form-group">
+                <label for="message">Your Message *</label>
+                <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            
+            <!-- Hidden field to prevent spam -->
+            <input type="text" name="_gotcha" style="display:none">
+            
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+                <span class="btn-text">Send Message</span>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="btn-icon-svg">
+                    <path d="M18 2L9 11M18 2L12 18L9 11M18 2L2 8L9 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            
+            <!-- Status Messages -->
+            <div id="form-status"></div>
+        </form>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="gradient-text">Tanveer Hossain</h3>
+                    <p>Front-End Developer</p>
+                    <p class="footer-tagline">Crafting digital experiences with passion and precision</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+               <div class="footer-social-section">
+    <h4>Connect</h4>
+    <div class="footer-social">
+        <a href="https://github.com/Tanveer156" target="_blank" class="social-link">GitHub</a>
+        <a href="https://linkedin.com/in/md-tanveer-hossain-shawan-5bb9612b9" target="_blank" class="social-link">LinkedIn</a>
+        <a href="https://reddit.com/user/DullDifficulty8879" target="_blank" class="social-link">Reddit</a>
+    </div>
+</div>
+
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; tnvr.dev All rights reserved.</p>
+               
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 19V5M5 12l7-7 7 7"/>
+        </svg>
+    </button>
+
+    <!-- AOS Library - Same folder -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+    <!-- Custom JavaScript - Same folder -->
+    <script src="script.js"></script>
+</body>
+</html>
